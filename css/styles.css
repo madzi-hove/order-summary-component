@@ -23,7 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 80px;
-    max-width: 29%;
+    max-width: 350px;
     background-color: white;
     border-radius: 15px;
     overflow: hidden;
