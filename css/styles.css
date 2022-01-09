@@ -1,0 +1,164 @@
+/* Start of body */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 385px;
+    background: hsl(225, 100%, 94%) url(../images/pattern-background-desktop.svg) no-repeat;
+    background-size: contain;
+    background-position-y: -3em;
+    /* height: 100vh; */
+
+}
+
+/* Start of card */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    max-width: 29%;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Start of header */
+.header-img {
+    width: 100%;
+    
+}
+
+/* end of header */
+
+/* Start of main */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 900;
+    margin-bottom: 1em;
+}
+/* Start of summary info text */
+.summary-intro-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em 0 1em;
+}
+
+.summary-intro-text p {
+    width: 80%;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+/* End of summary intro text */
+/* Start of order info */
+.order-info {
+    display: flex;
+    width: 80%;
+    background-color: hsl(0, 0%, 98%);
+    justify-content: space-between;
+    padding: 1.5em 0 1em ;
+    margin: 0.5em 0 1em;
+    border-radius: 15px;
+    
+}
+
+/* Start of order */
+.order {
+    display: inherit;
+    margin-left: 2em;
+    align-items: center;
+}
+
+
+.music-icon {
+    width: 80%;
+}
+
+
+.plan p:nth-child(1) {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.plan p:nth-child(2) {
+    color: hsl(224, 23%, 55%);
+    font-weight: lighter;
+}
+
+/* End of order */
+.change-order {
+    margin-right: 2em;
+    align-self: center;
+    color: hsl(224, 23%, 55%);
+}
+
+
+.change-order:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+/* End of order info */
+/* Start of payment button */
+.payment-btn {
+    width: 80%;
+    padding: 14px 5em;
+    margin: 1em 0 1.5em;
+    background-color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 20px 10px hsl(0, 0%, 80%);
+}
+
+
+.payment-btn:hover {
+    background-color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+/* End of payment button */
+/* Start of order cancel */
+.order-cancel {
+    margin: 0.5em 0 2.5em;
+    color: hsl(224, 23%, 55%);
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+.order-cancel:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+/* End of order cancel */
+
+/* End of main */
+
+/* End of card section */
+
+/* footer */
+.attribution {
+     font-size: 11px; text-align: center; 
+    }
+
+
+.attribution a {
+     color: hsl(228, 45%, 44%);
+    }
+
+/* End of footer */
